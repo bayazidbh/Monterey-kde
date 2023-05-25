@@ -48,7 +48,7 @@ install () {
   prompt -s "\n * All done!"
 }
 
-# Checking for root access and proceed if it is present
+# Install process
   color="" && install
   color="-light" && install
   color="-dark" && install
